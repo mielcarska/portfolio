@@ -1,0 +1,288 @@
+body
+{
+    background-image: url("img/sun.jpeg");
+    background-size: cover;
+    font-size: 20px;
+    color: rgb(237,118,014);
+}
+
+h1
+{
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.container-fluid
+{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: radial-gradient(rgb(134,115,161), rgb(21,20,34), rgb(11,11,17));
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu a:link
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.menu a:visited
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: gold;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.container
+{
+    margin-top: 60px;
+    text-align: center;
+    background-color: rgba(11, 11, 17, 0.8);
+}
+
+.container header
+{
+    margin-bottom: 30px;
+}
+
+#activity p
+{
+    margin-top: 10px;
+}
+
+.photo
+{
+    overflow: hidden;
+}
+
+.photo img
+{
+    width: 100%;
+    height: auto;
+    transition: all 0.8s ease-in-out;
+}
+
+.photo:hover img
+{
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
+}
+
+.overlay
+{
+    position: relative;
+    width: 100%;
+}
+
+.overlay .link
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    font-size: calc(0.75em - 0.3vw);
+    background-color: rgb(21, 20, 34);
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+#activity .overlay .link p
+{
+    margin: auto;
+}
+
+.overlay:hover .link
+{
+    opacity: 0.8;
+}
+
+.overlay a:link
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.overlay a:visited
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.overlay a:hover
+{
+    color: gold;
+    text-decoration: none;
+}
+
+#animacje
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.animation
+{
+    background-color: yellow;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    animation-name: sunAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sunAnimation
+{
+    0% {background-color: yellow; left: -30%; color: rgba(0,0,0,0);}
+    25% {background-color: orange; left: -10%; width: 160px; height: 160px; color: rgba(0,0,0,0);}
+    50% {background-color: orangered; left: 10%; width: 180px; height: 180px; color: rgba(0,0,0,0);}
+    75% {background-color: red; left: 35%; width: 200px; height: 200px; color: rgba(0,0,0,0);}
+    100% {background-color: darkred; left: 60%; width: 220px; height: 220px; color: rgba(0,0,0,1);}
+}
+
+.animation p
+{
+    margin: auto;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cz
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.animation2
+{
+    display: flex;
+    text-align: center;
+    animation-name: alertAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes alertAnimation
+{
+    0% {color: rgba(237,118,0.14,0);}
+    25% {color: rgba(237,118,0.14,0);}
+    50% {color: rgba(237,118,0.14,0);}
+    80% {color: rgba(237,118,0.14,0.75);}
+    100% {color: rgba(237,118,0.14,1);}
+}
+
+.animation2 p
+{
+    margin: auto;
+}
+
+a:link
+{
+    color: yellow;
+}
+
+a:visited
+{
+    color: yellow;
+}
+
+a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+#tekst
+{
+    margin-bottom: 20px;
+    /*background-color: rgba(11, 11, 17, 0.9);*/
+}
+
+#tekst p
+{
+    text-align: justify;
+    text-align-last: center;
+    hyphens: auto;
+    line-height: 200%;
+}
+
+#tekst hr
+{
+    border-color: gold;
+}
+
+#tekst h1
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.tabela
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabela table
+{
+    margin: auto;
+    width: 90%;
+}
+
+.tabela table, th, td
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gold;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.tabela th
+{
+    text-align: left;
+}
+
+.tabela td
+{
+    text-align: center;
+}
+
+#tab
+{
+    background-color: rgba(11, 11, 17, 0.85);
+}
+
+#txt
+{
+    background-color: rgba(11, 11, 17, 0.85);
+    font-size: 14px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
