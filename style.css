@@ -43,13 +43,14 @@ h1
 {
     color: gold;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: calc(0.4em + 1vh);
 }
 
 .menu
 {
     padding-left: 15px;
     padding-right: 15px;
+    font-size: calc(0.5em + 1vw);
 }
 
 .container
