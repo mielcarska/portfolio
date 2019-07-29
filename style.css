@@ -43,14 +43,14 @@ h1
 {
     color: gold;
     text-decoration: none;
-    font-size: calc(0.4em + 1vh);
+    font-size: calc(0.35em + 1vh);
 }
 
 .menu
 {
     padding-left: 15px;
     padding-right: 15px;
-    font-size: calc(0.5em + 1vw);
+    font-size: calc(0.45em + 1vw);
 }
 
 .container
@@ -292,4 +292,39 @@ a:hover
 .bold
 {
     font-weight: bold;
+}
+
+.opis
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.opis p
+{
+    text-align: justify;
+    text-align-last: center;
+    hyphens: auto;
+    line-height: 200%;
+    font-size: calc(0.45em + 1vw);
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.zdjecieAutora
+{
+    margin-bottom: 20px;
+}
+
+.zdjecieAutora img
+{
+    width: 100%;
+    height: auto;
+}
+
+#linki
+{
+    background-color: rgba(11, 11, 17, 0.85);
 }
