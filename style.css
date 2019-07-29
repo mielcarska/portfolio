@@ -46,6 +46,12 @@ h1
     font-size: 0.8em;
 }
 
+.menu
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .container
 {
     margin-top: 60px;
